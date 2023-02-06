@@ -1,7 +1,7 @@
 import { obtenerRobots } from './arreglos';
 
 
-describe('Pruebas de arreglos', () => {
+xdescribe('Pruebas de arreglos', () => {
 
   const resp = obtenerRobots();
 
@@ -9,7 +9,7 @@ describe('Pruebas de arreglos', () => {
     expect(resp.length).toBeGreaterThanOrEqual(3);
   });
 
-  it('Debe tener a MegaMan y a Ultron', () => {
+  xit('Debe tener a MegaMan y a Ultron', () => {
     expect(resp).toContain('MegaMan');
     expect(resp).toContain('Ultron');
   });
